@@ -1,0 +1,40 @@
+body{
+    color: #4a4a4a;
+    padding: 0;
+    margin: 0;
+}
+.main-wrapper{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow-y: auto;
+}
+header.hero-section{
+    background-image: url(../assets/backgrounds/h_img.jpg);
+    width: inherit;
+    height: 100vh;
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.hero-container{
+    text-align: center;
+}
+.hero-container h1, .hero-container p{
+    color: #fff;
+    text-transform: uppercase;
+}
+.hero-container img{
+    width: 40px;
+    margin: 0 0 25px 0;
+}
+.mouse{
+    position: absolute;
+    left: 49%;
+    bottom: 30px;
+}
+.mouse img{
+    width: 20px;
+}
