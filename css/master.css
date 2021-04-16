@@ -31,9 +31,8 @@ header.hero-section{
     margin: 0 0 25px 0;
 }
 .mouse{
-    position: absolute;
-    left: 49%;
-    bottom: 30px;
+    position: relative;
+    top: 120px;
 }
 .mouse img{
     width: 20px;
@@ -85,4 +84,81 @@ header.hero-section{
     width: 100%;
     background-image: url(..assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
+}
+
+.doings{
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.col-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.icon-holder{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.icon-holder .icon-text{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.align-center{
+    text-align: center;
+}
+.icon-content{
+    display: none;
+}
+.col-flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.icon-holder1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.icon-holder1 .icon-text{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.align-center{
+    text-align: center;
+}
+.icon-content1{
+    display: none;
+}
+.col-flex2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.icon-holder2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.icon-holder2 .icon-text{
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.align-center{
+    text-align: center;
+}
+.icon-content1{
+    display: none;
 }
