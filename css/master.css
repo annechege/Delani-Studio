@@ -103,6 +103,7 @@ header.hero-section{
     justify-content: center;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .icon-holder .icon-text{
     text-transform: uppercase;
@@ -155,10 +156,21 @@ header.hero-section{
 .icon-holder2 .icon-text{
     text-transform: uppercase;
     margin-top: 10px;
+
 }
 .align-center{
     text-align: center;
 }
-.icon-content1{
-    display: none;
+.content3{
+display: none;
+}
+.padd{
+    padding: 24px;
+}
+/* .image-holder{
+    padding: 20px;
+} */
+.image-holder img{
+    width: 100%;
+    object-fit: contain;
 }
