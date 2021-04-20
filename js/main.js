@@ -23,4 +23,21 @@ $(document).ready(function() {
         $('.content-three').hide()
         $('.three').show();
     })
+    
+    $('#submit').click(function(){
+        const divs  = $('.form-control');
+        divs.forEach(element => {
+            console.log(element)
+        });
+    })
 });
+
+function getName(inp){
+    let value = inp.value;
+
+    if(inp == ""){
+        alert('please enter name')
+    }else{
+        return value
+    }
+}
